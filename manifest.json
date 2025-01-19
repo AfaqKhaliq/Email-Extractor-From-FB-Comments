@@ -5,8 +5,14 @@
     "description": "Extracts emails from Facebook comments.",
     "permissions": ["activeTab", "scripting"],
     "host_permissions": ["https://*.facebook.com/*"],
+    "icons": {
+      "256": "fbExtractorIcon.png"
+    },
     "action": {
-
+      "default_icon": {
+        "256": "fbExtractorIcon.png"
+      },
+      "default_title": "Email Extractor"
     },
     "background": {
     },
