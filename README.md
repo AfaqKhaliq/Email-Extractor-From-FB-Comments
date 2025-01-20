@@ -17,7 +17,7 @@ A browser extension that extracts email addresses from Facebook comments, design
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/facebook-email-extractor.git
+   git clone https://github.com/AfaqKhaliq/Email-Extractor-From-FB-Comments.git
 
 2. Open your browser and navigate to the extensions page:
 
