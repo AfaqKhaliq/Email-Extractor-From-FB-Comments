@@ -20,6 +20,7 @@ A browser extension that extracts email addresses from Facebook comments, design
    git clone https://github.com/your-username/facebook-email-extractor.git
 
 2. Open your browser and navigate to the extensions page:
+
 - For Chrome: chrome://extensions/
 - For Edge: edge://extensions/
 
@@ -48,33 +49,21 @@ A browser extension that extracts email addresses from Facebook comments, design
 
 ## 📸 Screenshots
 
-     ```markdown
-     ![Click On Comment](assets/SelectingComment.png)
-     ```
+![Click On Comment](assets/SelectingComment.png)
 
-       ```markdown
-     ![Click On Extract](assets/SelectExtract.png)
-     ```
-       ```markdown
-     ![Automatic Scrolling And All Comments Selection](assets/Automatic Scrolling.png)
-     ```
-           ```markdown
-     ![Extraction Can Be Viewed From Console](assets/ExtractionView.png)
-     ```
+![Click On Extract](assets/SelectExtract.png)
 
-     ```markdown
-     ![No Email Found](assets/No Email Found.png)
-     ```
-           ```markdown
-     ![Another Extraction](assets/ExtractionAnother.png)
-     ```
-     ```markdown
-     ![Emails Found](assets/EmailFound.png)
-     ```
-     ```markdown
-     ![Saved As Text File](assets/SaveAsText.png)
-     ```
+![Automatic Scrolling And All Comments Selection](assets/AutomaticScrolling.png)
 
+![Extraction Can Be Viewed From Console](assets/ExtractionView.png)
+
+![No Email Found](assets/NoEmailFound.png)
+
+![Another Extraction](assets/ExtractionAnother.png)
+
+![Emails Found](assets/EmailFound.png)
+
+![Saved As Text File](assets/SaveAsText.png)
 
 
 ## 📄 License
