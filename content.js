@@ -122,6 +122,7 @@ async function injectButtonWithDelay(targetDiv) {
                 await autoScrollUntilEnd(scrollableDiv);
                 const emails = extractEmailsFromComments(targetDiv);
                 if (emails.length > 0) {
+                    alert("Text File Containing Emails Will Be Downloaded");
                     const emailText = `Found emails:\n${emails.join('\n')}`;
 
                     console.log(emailText);
@@ -154,7 +155,7 @@ function observeDOMForTargetDiv() {
     const observer = new MutationObserver((mutationsList) => {
         for (let mutation of mutationsList) {
             if (mutation.type === 'childList') {
-                const targetDiv = document.querySelector('.__fb-light-mode.x1n2onr6.xzkaem6');
+                const targetDiv = document.querySelector('.__fb-light-mode.x1n2onr6.xzkaem6, .__fb-dark-mode.x1n2onr6.xzkaem6');
                 if (targetDiv && !ProcessingDialog) {
                     if (!document.getElementById('Email-Extract-btn')) {
                     injectButtonWithDelay(targetDiv);
