@@ -53,13 +53,17 @@ A browser extension that extracts email addresses from Facebook comments, design
 
 ![Click On Extract](assets/SelectExtract.png)
 
+#### Automatic Scrolling
+
 ![Automatic Scrolling And All Comments Selection](assets/AutomaticScrolling.png)
+
+#### Extraction Can be Viewed From Console
 
 ![Extraction Can Be Viewed From Console](assets/ExtractionView.png)
 
 ![No Email Found](assets/NoEmailFound.png)
 
-![Another Extraction](assets/ExtractionAnother.png)
+![Another Extraction](assets/ExtractingAnother.png)
 
 ![Emails Found](assets/EmailFound.png)
 
